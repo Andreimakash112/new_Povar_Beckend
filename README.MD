@@ -6,9 +6,11 @@
 # Файл .env cоздайте по шаблону
 # Пример файла .env
 SECRET=mySecretKey
+
 URL_DB=mongodb://localhost:27017/cardDB
+
 PORT=9001
 
-
+# ошибки удалены
 
 
