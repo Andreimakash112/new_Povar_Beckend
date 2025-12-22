@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# Игнорируем конфигурационные файлы окружения
+.env
+/node_modules
 # production
 /build
 
