@@ -258,6 +258,6 @@ app.post('/api/data/:orgId', async (req, res) => {
 });
 
 // Запуск сервера
-app.listen(PORT, () => {
+app.listen(PORT,'0.0.0.0', () => {
   console.log(`Сервер запущен на порту ${PORT}`);
 });
